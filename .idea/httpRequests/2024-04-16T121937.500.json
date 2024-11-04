@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-04-16T10:19:37.149+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Email taken",
+  "path": "/api/v1/consults"
+}

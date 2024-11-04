@@ -1,0 +1,157 @@
+DELETE http://localhost:8080/consult/3/delete
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-22T191338.404.json
+
+###
+
+DELETE http://localhost:8080/consult/3/delete
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-22T191331.404.json
+
+###
+
+POST http://localhost:8080/timestamp/register
+Content-Type: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "notes": "Had some lunch",
+  "startTime": "08:30",
+  "endTime": "09:30",
+  "date": "2024-03-04",
+  "consult": {"id": 1},
+  "mission": {"id":  1}
+}
+
+###
+
+POST http://localhost:8080/mission/register
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Content-Length: 105
+
+{
+  "name": "Projekt E",
+  "startDate": "2024-05-01",
+  "endDate": "2024-12-31",
+  "company": {"id": 1}
+}
+
+###
+
+POST http://localhost:8080/company/register
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Content-Length: 83
+
+{
+  "name": "Företagsnamn AB",
+  "location": "Stockholm",
+  "manager": {"id": 1}
+}
+
+###
+
+POST http://localhost:8080/company/register
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Content-Length: 83
+
+{
+  "name": "Företagsnamn AB",
+  "location": "Stockholm",
+  "manager": {"id": 1}
+}
+
+<> 2024-05-14T172118.500.json
+
+###
+
+POST http://localhost:8080/company/register
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Content-Length: 83
+
+{
+  "name": "Företagsnamn AB",
+  "location": "Stockholm",
+  "manager": {"id": 1}
+}
+
+###
+
+
+###
+
+POST http://localhost:8080/timestamp/register
+Content-Type: application/json
+
+{
+  "notes": "Had some lunch",
+  "startTime": "08:30",
+  "endTime": "09:30",
+  "date": "2024-03-04",
+  "consult": {"id": 1},
+  "mission": {"id":  1}
+}
+
+###
+
+POST http://localhost:8080/mission/register
+Content-Type: application/json
+Content-Length: 105
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Projekt E",
+  "startDate": "2024-05-01",
+  "endDate": "2024-12-31",
+  "company": {"id": 1}
+}
+
+###
+
+POST http://localhost:8080/company/register
+Content-Type: application/json
+Content-Length: 83
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Företagsnamn AB",
+  "location": "Stockholm",
+  "manager": {"id": 1}
+}
+
+###
+
+PUT http://localhost:8080/mission/1/1/assignConsult
+Content-Type: application/x-www-form-urlencoded
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+Accept: */*
+content-length: 0
+

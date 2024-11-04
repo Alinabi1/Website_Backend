@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-04-11T14:28:21.593+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`springtest`.`company`, CONSTRAINT `FK5r72ppb58krh60l9jx87ak12v` FOREIGN KEY (`manager_id`) REFERENCES `manager` (`id`))] [delete from manager where id=?]; SQL [delete from manager where id=?]; constraint [null]",
+  "path": "/api/v1/managers/2"
+}

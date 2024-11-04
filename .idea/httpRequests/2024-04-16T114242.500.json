@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-04-16T09:42:42.089+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Company already exists",
+  "path": "/api/v1/companies"
+}

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2024-04-16T09:48:18.056+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Mission with the same company, start date, end date, and name already exists.",
+  "path": "/api/v1/missions"
+}
